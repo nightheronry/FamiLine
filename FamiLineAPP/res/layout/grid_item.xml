@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/relaGrid"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <com.example.androidhive.ImageViewExt android:id="@+id/gridImage" 
+                      android:layout_width="match_parent" 
+                      android:layout_height="wrap_content"
+                        ></com.example.androidhive.ImageViewExt>
+    <TextView android:id="@+id/gridText" 
+                      android:layout_height="16dp" 
+                      android:layout_width="wrap_content" 
+                      android:layout_below="@+id/gridImage" 
+                      android:gravity="center"
+                      android:singleLine="true"
+                      android:scrollHorizontally="true"
+                      android:ellipsize="marquee"
+                      android:textStyle="italic"
+                      android:marqueeRepeatLimit="marquee_forever"
+                      android:text="NOTITLE"
+                      ></TextView>
+  
+</RelativeLayout>

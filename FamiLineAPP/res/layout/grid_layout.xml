@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/grid_list"
+		android:orientation="vertical"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="fill_parent"
+	  	android:layout_below="@+id/llTitle"
+	  	android:background="@drawable/bg_default"
+	  	android:layout_above="@+id/llBottomLayout">
+	  	<GridView 
+	  		android:id="@+id/grid_view"
+	  		android:layoutAnimation="@anim/layout_wave_scale"
+	  		android:layout_width="fill_parent"
+	  		android:layout_height="fill_parent"
+	  		android:stretchMode="columnWidth"
+	  		android:gravity="center"/>
+
+	</LinearLayout>
+
+<!-- 
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:numColumns="auto_fit"
+    android:columnWidth="90dp"
+    android:horizontalSpacing="10dp"
+    android:verticalSpacing="10dp"
+    android:gravity="center"
+    android:stretchMode="columnWidth" >  
+
+</GridView>
+ -->
